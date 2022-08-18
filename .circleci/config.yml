@@ -178,7 +178,7 @@ jobs:
     steps:
       - checkout
       - add_ssh_keys:
-          fingerprints: ["09:78:0e:8d:fe:7f:11:98:0e:f6:ba:af:df:f3:a5:4a"] # You can get this ID in the section where you registered the SSH Key
+          fingerprints: ["84:a8:0a:38:53:99:53:86:a1:2e:b9:e6:49:b7:5e:3a"] # You can get this ID in the section where you registered the SSH Key
       - attach_workspace:
           at: ~/
       - run:
@@ -266,7 +266,7 @@ jobs:
       - restore_cache:
           keys: [backend-build]
       - add_ssh_keys:
-          fingerprints: ["09:78:0e:8d:fe:7f:11:98:0e:f6:ba:af:df:f3:a5:4a"] # You can get this ID in the section where you registered the SSH Key
+          fingerprints: ["84:a8:0a:38:53:99:53:86:a1:2e:b9:e6:49:b7:5e:3a"] # You can get this ID in the section where you registered the SSH Key
       - attach_workspace:
           at: ~/
       - run:
